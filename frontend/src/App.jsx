@@ -55,7 +55,7 @@ function App() {
 
         try {
             const response = await fetch(
-                'http://localhost:5000/api/auth/login',
+                'https://staffsync-backend-hno4.onrender.com/api/auth/login',
                 {
                     method: 'POST',
                     headers: {
@@ -92,7 +92,7 @@ function App() {
 
         try {
             const response = await fetch(
-                'http://localhost:5000/api/employees',
+                'https://staffsync-backend-hno4.onrender.com/api/employees',
                 {
                     headers: {
                         Authorization: `Bearer ${localStorage.getItem('token')}`
@@ -124,7 +124,7 @@ function App() {
 
         try {
             const response = await fetch(
-                'http://localhost:5000/api/employees',
+                'https://staffsync-backend-hno4.onrender.com/api/employees',
                 {
                     method: 'POST',
                     headers: {
@@ -168,7 +168,7 @@ function App() {
 
         try {
             const response = await fetch(
-                `http://localhost:5000/api/employees/${editingEmployee._id}`,
+                `https://staffsync-backend-hno4.onrender.com/api/employees/${editingEmployee._id}`,
                 {
                     method: 'PUT',
                     headers: {
@@ -216,7 +216,7 @@ function App() {
 
         try {
             const response = await fetch(
-                `http://localhost:5000/api/employees/${employee._id}`,
+                `https://staffsync-backend-hno4.onrender.com/api/employees/${employee._id}`,
                 {
                     method: 'DELETE',
                     headers: {
@@ -249,7 +249,7 @@ function App() {
     const fetchAttendance = async () => {
         try {
             const response = await fetch(
-                'http://localhost:5000/api/attendance',
+                'https://staffsync-backend-hno4.onrender.com/api/attendance',
                 {
                     headers: {
                         Authorization: `Bearer ${localStorage.getItem('token')}`
@@ -279,7 +279,7 @@ function App() {
 
         try {
             const response = await fetch(
-                'http://localhost:5000/api/attendance/mark',
+                'https://staffsync-backend-hno4.onrender.com/api/attendance/mark',
                 {
                     method: 'POST',
                     headers: {
@@ -313,7 +313,7 @@ function App() {
 
         try {
             const response = await fetch(
-                'http://localhost:5000/api/leaves',
+                'https://staffsync-backend-hno4.onrender.com/api/leaves',
                 {
                     headers: {
                         Authorization: `Bearer ${localStorage.getItem('token')}`
@@ -341,7 +341,7 @@ function App() {
 
         try {
             const response = await fetch(
-                'http://localhost:5000/api/leaves',
+                'https://staffsync-backend-hno4.onrender.com/api/leaves',
                 {
                     method: 'POST',
                     headers: {
@@ -381,7 +381,7 @@ function App() {
 
         try {
             const response = await fetch(
-                `http://localhost:5000/api/leaves/${leaveId}`,
+                `https://staffsync-backend-hno4.onrender.com/api/leaves/${leaveId}`,
                 {
                     method: 'PUT',
                     headers: {
@@ -411,7 +411,7 @@ function App() {
 
         try {
             const response = await fetch(
-                'http://localhost:5000/api/announcements',
+                'https://staffsync-backend-hno4.onrender.com/api/announcements',
                 {
                     headers: {
                         Authorization: `Bearer ${localStorage.getItem('token')}`
@@ -441,7 +441,7 @@ function App() {
 
         try {
             const response = await fetch(
-                'http://localhost:5000/api/announcements',
+                'https://staffsync-backend-hno4.onrender.com/api/announcements',
                 {
                     method: 'POST',
                     headers: {
@@ -488,7 +488,7 @@ function App() {
 
         try {
             const response = await fetch(
-                `http://localhost:5000/api/announcements/${announcementId}`,
+                `https://staffsync-backend-hno4.onrender.com/api/announcements/${announcementId}`,
                 {
                     method: 'DELETE',
                     headers: {
@@ -519,7 +519,7 @@ function App() {
 
         try {
             const response = await fetch(
-                'http://localhost:5000/api/trainings',
+                'https://staffsync-backend-hno4.onrender.com/api/trainings',
                 {
                     headers: {
                         Authorization: `Bearer ${localStorage.getItem('token')}`
@@ -549,7 +549,7 @@ function App() {
 
         try {
             const response = await fetch(
-                'http://localhost:5000/api/trainings',
+                'https://staffsync-backend-hno4.onrender.com/api/trainings',
                 {
                     method: 'POST',
                     headers: {
@@ -598,7 +598,7 @@ function App() {
 
         try {
             const response = await fetch(
-                `http://localhost:5000/api/trainings/${trainingId}`,
+                `https://staffsync-backend-hno4.onrender.com/api/trainings/${trainingId}`,
                 {
                     method: 'DELETE',
                     headers: {
