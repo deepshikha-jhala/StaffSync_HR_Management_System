@@ -181,6 +181,32 @@ Further end-to-end testing and deployment verification are part of the finalizat
 **Demo Video:** Click on the link to watch the demo.
 [To be added](https://drive.google.com/file/d/1f99m0YjKnrOvgrCcWryxBu4lf5vNrqBl/view?usp=sharing) .
 
+##  Live Demo
+
+**Try StaffSync here:** [Open StaffSync Live Demo]([PASTE_YOUR_VERCEL_URL_HERE](https://staffsync-two.vercel.app/))
+
+The application is deployed using Vercel for the frontend, Render for the backend, and MongoDB Atlas for cloud database storage.
+
+###  Demo Login Credentials
+
+Use the following credentials to explore the HR dashboard:
+
+| Field    | Details                |
+| -------- | ---------------------- |
+| Role     | HR                     |
+| Email    | `demohr@staffsync.com` |
+| Password | `Demo@12345`           |
+
+**Instructions:**
+
+1. Open the live demo link above.
+2. Enter the demo credentials.
+3. Click **Sign In** to access the HR dashboard.
+4. Explore the available features of StaffSync.
+
+> **Note:** These credentials are provided exclusively for academic project evaluation. Please do not use the demo account for personal.
+
+
 ## Future Improvements
 
 * Implement manager access to team leave applications.
