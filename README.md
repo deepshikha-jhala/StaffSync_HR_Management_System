@@ -176,9 +176,10 @@ The application has been tested during development for major workflows, includin
 
 Further end-to-end testing and deployment verification are part of the finalization process.
 
-## Demo and Screenshots
+## Project Demo Video
 
-**Live Demo:** To be added .
+**Demo Video:** Click on the link to watch the demo.
+[To be added](https://drive.google.com/file/d/1f99m0YjKnrOvgrCcWryxBu4lf5vNrqBl/view?usp=sharing) .
 
 ## Future Improvements
 
