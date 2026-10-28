@@ -181,9 +181,10 @@ Further end-to-end testing and deployment verification are part of the finalizat
 **Demo Video:** Click on the link to watch the demo.
 [To be added](https://drive.google.com/file/d/1f99m0YjKnrOvgrCcWryxBu4lf5vNrqBl/view?usp=sharing) .
 
-##  Live Demo
+## Live Demo
 
-**Try StaffSync here:** [Open StaffSync Live Demo]((https://staffsync-two.vercel.app/))
+[🚀 Open StaffSync Live Demo](https://staffsync-two.vercel.app/)
+
 
 The application is deployed using Vercel for the frontend, Render for the backend, and MongoDB Atlas for cloud database storage.
 
